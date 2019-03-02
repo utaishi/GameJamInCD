@@ -810,6 +810,11 @@
             </e>
           </e>
         </e>
+        <e p="Zekki" t="Include">
+          <e p="Script" t="Include">
+            <e p="SetNotes.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="GameJamInCD.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

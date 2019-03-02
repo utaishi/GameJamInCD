@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12a30b3-4175-4c2c-8fbb-47dee08ec79a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Zekki/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamInCD/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamInCD/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Zekki/Scenes/RhythmGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zekki/Scenes/RhythmGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Zekki/ScriptableObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Zekki/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Zekki/Script/SetNotes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zekki/Script/SetNotes.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,8 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,10 +32,38 @@
           <entry key="C#" value="3" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="288" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="288" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Zekki/Script/SetNotes.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+              <folding>
+                <marker date="1551532430552" expanded="true" signature="6:78" ph="..." />
+                <marker date="1551532430552" expanded="true" signature="117:595" ph="{...}" />
+                <marker date="1551532430552" expanded="true" signature="333:523" ph="{...}" />
+                <marker date="1551532430552" expanded="true" signature="364:520" ph="{...}" />
+                <marker date="1551532430552" expanded="true" signature="542:549" ph="{...}" />
+                <marker date="1551532430552" expanded="true" signature="584:593" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,8 +71,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/System/IObservable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.Awaiter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Zekki/Script/SetNotes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityWinRTBridge/Thread.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Zekki/Script/SetNotes.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -65,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -85,7 +120,6 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,11 +167,12 @@
       <updated>1551438597649</updated>
       <workItem from="1551438602775" duration="648000" />
       <workItem from="1551439603758" duration="651000" />
+      <workItem from="1551511514089" duration="5278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1299000" />
+    <option name="totallyTimeSpent" value="6577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -150,8 +185,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -206,61 +242,19 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Script/SetNotes.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="420">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
-            <marker date="1551435158179" expanded="false" signature="6:120" ph="..." />
-            <marker date="1551435158179" expanded="true" signature="137:11609" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="144:315" ph="/* Standard Query Operators ... */" />
-            <marker date="1551435158179" expanded="true" signature="359:11607" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="567:1174" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="590:878" ph="/* sometimes cause &quot;which no ahead of time (AOT) code was generated.&quot; on IL2CPP... ... */" />
-            <marker date="1551435158179" expanded="true" signature="999:1097" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="1282:1368" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="1468:2011" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="1629:1725" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="1841:1938" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="2116:2198" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="2208:2307" ph="/// Lightweight SelectMany for Single Async Operation. ... " />
-            <marker date="1551435158179" expanded="true" signature="2416:2489" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="2499:2598" ph="/// Lightweight SelectMany for Single Async Operation. ... " />
-            <marker date="1551435158179" expanded="true" signature="2719:2811" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="2919:2990" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="3110:3200" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="3358:3459" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="3625:3745" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="3992:4132" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="4285:4386" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="4544:4645" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="4877:5017" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="5264:5404" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="5483:5556" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="5639:5711" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="5806:5892" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="5982:6082" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="6199:6295" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="6405:6507" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="6644:6742" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="6848:6932" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="7035:7127" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="7230:7322" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="7425:7517" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="7614:7700" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="7795:7872" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="7969:8048" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="8132:8224" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="8324:8418" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="8514:8770" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="8903:8993" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="9128:9397" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="9566:9675" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="9765:10015" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="10136:10308" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="10431:10706" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="10863:11054" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="11138:11218" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="11321:11407" ph="{...}" />
-            <marker date="1551435158179" expanded="true" signature="11515:11601" ph="{...}" />
+            <marker date="1551532430552" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551532430552" expanded="true" signature="117:595" ph="{...}" />
+            <marker date="1551532430552" expanded="true" signature="333:523" ph="{...}" />
+            <marker date="1551532430552" expanded="true" signature="364:520" ph="{...}" />
+            <marker date="1551532430552" expanded="true" signature="542:549" ph="{...}" />
+            <marker date="1551532430552" expanded="true" signature="584:593" ph="{...}" />
           </folding>
         </state>
       </provider>
