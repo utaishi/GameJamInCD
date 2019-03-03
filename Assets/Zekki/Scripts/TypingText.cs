@@ -6,8 +6,10 @@ using UnityEngine.Experimental.UIElements;
 public class TypingText : MonoBehaviour
 {
 	private SetNotes _setNotes;
+	private Syorihans _syorihans;
 	private char[] problemText;
 	public GameObject notes;
+	public GameObject threeMen;
 	public GameObject backGround;
 	private int textIndex = 0;
 	public int clearCount = 0;
@@ -17,6 +19,7 @@ public class TypingText : MonoBehaviour
 	{
 		_setNotes = notes.GetComponent<SetNotes>();
 		problemText = _setNotes.firstNotes;
+		_syorihans = threeMen.GetComponent<Syorihans>();
 	}
 	
 	void Update () {
@@ -48,9 +51,9 @@ public class TypingText : MonoBehaviour
 	{
 		_setNotes.notesImages[textIndex].GetComponent<Renderer>().material.color=Color.black;
 		textIndex++;
-		Debug.Log("correct"+textIndex);
 		if (textIndex==6)
 		{
+			_syorihans.ChangeManImage();
 			clearCount++;
 			changeText();
 			_setNotes.ChangeImage();
@@ -60,7 +63,6 @@ public class TypingText : MonoBehaviour
 	void Mistake()
 	{
 		missed = true;
-		Debug.Log("miss"+textIndex);
 	}
 
 	void changeText()

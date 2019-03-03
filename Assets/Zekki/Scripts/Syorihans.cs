@@ -4,13 +4,29 @@ using UnityEngine;
 
 public class Syorihans : MonoBehaviour
 {
-	public GameObject[] threeMan;
+	public GameObject inputText;
+	private TypingText _typingText;
+	public GameObject[] threeMen;
+	public GameObject[] manImages;
+	public GameObject[] manSleep;
+	public GameObject[] manWake;
 	
 	void Start () {
-		
+		for (int i = 0; i < 3; i++)
+		{
+			manImages[i] = Instantiate(manSleep[i], threeMen[i].transform);
+		}
+		_typingText = inputText.GetComponent<TypingText>();
 	}
 	
 	void Update () {
 		
+	}
+
+	public void ChangeManImage()
+	{
+		int count = _typingText.clearCount;
+		Destroy(manImages[count]);
+		manImages[count] = Instantiate(manWake[count], threeMen[count].transform);
 	}
 }
