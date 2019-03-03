@@ -22,7 +22,6 @@ public class PuzzleOperator : MonoBehaviour {
             for(int j = 0; j < 4; ++j)
             {
                 number = 4 * i + j;
-                Debug.Log(number);
                 pieces[i, j] = GameObject.Find("PuzzlePieces_" + number.ToString());
                 pieces[i, j].transform.localPosition = new Vector3(x[i], y[j], 0);
             }
