@@ -10,6 +10,7 @@ public class SetNotes : MonoBehaviour
 	public char[] thirdNotes = new char[6];
 	private char[] elements = {'a', 's', 'd'};
 	public GameObject[] notes;
+	public GameObject[] notesImages;
 	public GameObject onCymbal;
 	public GameObject onFrypan;
 	public GameObject onHarisen;
@@ -34,6 +35,7 @@ public class SetNotes : MonoBehaviour
 
 	public void ChangeImage()
 	{
+		DeleteImage();
 		if (_typingText.clearCount==1)
 		{
 			SetImage(secondNotes);
@@ -51,24 +53,23 @@ public class SetNotes : MonoBehaviour
 			switch (parameters[i])
 			{
 				case 'a':
-					notes[i] = Instantiate(onCymbal,notes[i].transform);
+					notesImages[i] = Instantiate(onCymbal,notes[i].transform);
 					break;
 				case 's':
-					notes[i] = Instantiate(onFrypan,notes[i].transform);
+					notesImages[i] = Instantiate(onFrypan,notes[i].transform);
 					break;
 				case 'd':
-					notes[i] = Instantiate(onHarisen,notes[i].transform);
+					notesImages[i] = Instantiate(onHarisen,notes[i].transform);
 					break;
-					
 			}
 		}
 	}
 
-	void DeleteImage(char[] parameters)
+	void DeleteImage()
 	{
 		for (int i = 0; i < 6; i++)
 		{
-			Destroy(notes[i]);
+			Destroy(notesImages[i]);
 		}
 	}
 }
