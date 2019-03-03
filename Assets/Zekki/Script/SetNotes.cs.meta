@@ -3,7 +3,11 @@ guid: 03d7962a9eb08374499e6246299318c9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - onCymbal: {fileID: 1490348001821510, guid: 00c116c8751962d47a5fee5a7c77c3a1, type: 2}
+  - onFrypan: {fileID: 1861656944074550, guid: a1dbaab828b9b0143ac24497f8952974, type: 2}
+  - onHarisen: {fileID: 1186508301320344, guid: 6b75b3e6a35d3a24eb586dfb28db215f,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

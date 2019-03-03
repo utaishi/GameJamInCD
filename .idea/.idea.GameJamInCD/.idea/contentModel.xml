@@ -828,8 +828,7 @@
       <e p="UniRx.csproj" t="IncludeRecursive" />
       <e p="UniRx.Examples.csproj" t="IncludeRecursive" />
     </e>
-    <e p="C:\Users\mrkai\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\mrkai\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\mrkai\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_GameJamInCD.-591044235.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\user\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_GameJamInCD.-591044235.00" t="ExcludeRecursive" />
   </component>
 </project>
