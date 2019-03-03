@@ -13,6 +13,8 @@ public class SetNotes : MonoBehaviour
 	public GameObject onCymbal;
 	public GameObject onFrypan;
 	public GameObject onHarisen;
+	public GameObject inputText;
+	private TypingText _typingText;
 
 	void Start () {
 		for (int i = 0; i < 6; i++)
@@ -22,10 +24,24 @@ public class SetNotes : MonoBehaviour
 			thirdNotes[i] = elements[Random.Range(0, 3)];
 		}
 		SetImage(firstNotes);
+
+		_typingText = inputText.GetComponent<TypingText>();
 	}
 	
 	void Update () {
 		
+	}
+
+	public void ChangeImage()
+	{
+		if (_typingText.clearCount==1)
+		{
+			SetImage(secondNotes);
+		}
+		else
+		{
+			SetImage(thirdNotes);
+		}
 	}
 
 	void SetImage(char[] parameters)
@@ -45,6 +61,14 @@ public class SetNotes : MonoBehaviour
 					break;
 					
 			}
+		}
+	}
+
+	void DeleteImage(char[] parameters)
+	{
+		for (int i = 0; i < 6; i++)
+		{
+			Destroy(notes[i]);
 		}
 	}
 }

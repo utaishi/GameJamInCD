@@ -813,6 +813,7 @@
         <e p="Zekki" t="Include">
           <e p="Script" t="Include">
             <e p="SetNotes.cs" t="Include" />
+            <e p="TypingText.cs" t="Include" />
           </e>
         </e>
       </e>
