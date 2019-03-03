@@ -21,7 +21,6 @@ public class PuzzleOperator : MonoBehaviour {
         {
             for(int j = 0; j < 4; ++j)
             {
-                //Debug.Log(x[i] + " " + y[j]);
                 number = 4 * i + j;
                 Debug.Log(number);
                 pieces[i, j] = GameObject.Find("PuzzlePieces_" + number.ToString());
