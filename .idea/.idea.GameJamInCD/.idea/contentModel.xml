@@ -814,6 +814,7 @@
           <e p="Scripts" t="Include">
             <e p="SetNotes.cs" t="Include" />
             <e p="Syorihans.cs" t="Include" />
+            <e p="TimerOnRhythmPart.cs" t="Include" />
             <e p="TypingText.cs" t="Include" />
           </e>
         </e>

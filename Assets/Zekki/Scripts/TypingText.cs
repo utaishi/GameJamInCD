@@ -11,6 +11,10 @@ public class TypingText : MonoBehaviour
 	public GameObject notes;
 	public GameObject threeMen;
 	public GameObject backGround;
+	public AudioClip cymbalClip;
+	public AudioClip frypanClip;
+	public AudioClip harisenClip;
+	private AudioSource typeSound;
 	private int textIndex = 0;
 	public int clearCount = 0;
 	private bool missed;
@@ -20,11 +24,25 @@ public class TypingText : MonoBehaviour
 		_setNotes = notes.GetComponent<SetNotes>();
 		problemText = _setNotes.firstNotes;
 		_syorihans = threeMen.GetComponent<Syorihans>();
+		typeSound = GetComponent<AudioSource>();
 	}
 	
 	void Update () {
 		if (Input.anyKeyDown)
 		{
+			if (Input.GetKeyDown(KeyCode.A))
+			{
+				PlayClip('a');
+			}
+			else if (Input.GetKeyDown(KeyCode.S))
+			{
+				PlayClip('s');	
+			}
+			else if (Input.GetKeyDown(KeyCode.D))
+			{
+				PlayClip('d');
+			}
+			
 			if (Input.GetKeyDown(problemText[textIndex].ToString()))
 			{
 				Correct();
@@ -47,6 +65,23 @@ public class TypingText : MonoBehaviour
 		missed = false;
 	}
 
+	void PlayClip(char x)
+	{
+		if (x=='a')
+		{
+			typeSound.clip = cymbalClip;
+		}
+		else if (x=='s')
+		{
+			typeSound.clip = frypanClip;
+		}
+		else
+		{
+			typeSound.clip = harisenClip;
+		}
+		typeSound.Play();
+	}
+	
 	void Correct()
 	{
 		_setNotes.notesImages[textIndex].GetComponent<Renderer>().material.color=Color.black;
