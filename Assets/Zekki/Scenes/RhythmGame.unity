@@ -512,6 +512,7 @@ MonoBehaviour:
   notes: {fileID: 807001586}
   threeMen: {fileID: 928624513}
   backGround: {fileID: 62574333}
+  timerText: {fileID: 304669995}
   cymbalClip: {fileID: 8300000, guid: 6023224391b4225449785923f5405256, type: 3}
   frypanClip: {fileID: 8300000, guid: bde78bdf74565ea4a94dd4002409ce2d, type: 3}
   harisenClip: {fileID: 8300000, guid: a76f62886ac845b41bca89e8f272ffc4, type: 3}
@@ -540,8 +541,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.2
+  m_Pitch: 1.1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -960,7 +961,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: decf8d54230947d448f6d6586f6ce0c3, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0

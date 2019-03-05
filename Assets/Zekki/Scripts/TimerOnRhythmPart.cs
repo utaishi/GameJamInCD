@@ -18,10 +18,20 @@ public class TimerOnRhythmPart : MonoBehaviour
 		{
 			time -= 0.01f;
 			timeText.text = time.ToString("f2");
-		}).AddTo(this);
+		});
 	}
 	
 	void Update () {
-		
+		if (time<=0)
+		{
+			//GameOver
+			Debug.Log("GAMEOVER");
+		}
+	}
+
+	public void DecreaseTimer()
+	{
+		time -= 20;
+		timeText.text = time.ToString("f2");
 	}
 }

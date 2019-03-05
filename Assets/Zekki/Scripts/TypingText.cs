@@ -7,10 +7,12 @@ public class TypingText : MonoBehaviour
 {
 	private SetNotes _setNotes;
 	private Syorihans _syorihans;
+	private TimerOnRhythmPart _timerOnRhythmPart;
 	private char[] problemText;
 	public GameObject notes;
 	public GameObject threeMen;
 	public GameObject backGround;
+	public GameObject timerText;
 	public AudioClip cymbalClip;
 	public AudioClip frypanClip;
 	public AudioClip harisenClip;
@@ -25,6 +27,7 @@ public class TypingText : MonoBehaviour
 		problemText = _setNotes.firstNotes;
 		_syorihans = threeMen.GetComponent<Syorihans>();
 		typeSound = GetComponent<AudioSource>();
+		_timerOnRhythmPart = timerText.GetComponent<TimerOnRhythmPart>();
 	}
 	
 	void Update () {
@@ -98,11 +101,16 @@ public class TypingText : MonoBehaviour
 	void Mistake()
 	{
 		missed = true;
+		_timerOnRhythmPart.DecreaseTimer();
 	}
 
 	void changeText()
 	{
-		if (clearCount==1)
+		if (clearCount==3)
+		{
+			//Clear
+		}
+		else if (clearCount==1)
 		{
 			problemText = _setNotes.secondNotes;
 		}
