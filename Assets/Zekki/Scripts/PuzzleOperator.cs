@@ -46,44 +46,25 @@ public class PuzzleOperator : MonoBehaviour {
         //十字キーでカーソル移動、Spaceキーで移動
         // PuzzlePieces_14はSprite Rendererをオフにしている
         // そのためPuzzlePieces_14(pieces[3, 2])とその周囲をswapすればよい
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {          
-            for (int i = 0; i < 4; i++)
-            {               
-                for (int j = 0; j < 4; j++)
-                {                   
-                    if (pieces[i, j].transform.localPosition == Vector3.up + emptyPieces.transform.localPosition)
-                    {                      
-                        
-                            Debug.Log("up!!!!");
-                            Swap( pieces[i, j],  emptyPieces);
-                            break;
-                    }
-                }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                LoopDirection(Vector3.up);
             }
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
-            for (int i = 0; i < 4; i++)
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                for (int j = 0; j < 4; j++)
-                {
-                    if (pieces[i, j].transform.localPosition == Vector3.down + emptyPieces.transform.localPosition)
-                    {
-                        
-                            Debug.Log("down");
-                            Swap(pieces[i, j],emptyPieces);
-                            break;
-                    }
-                }
-
+                LoopDirection(Vector3.down);
             }
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                LoopRight();
+                LoopDirection(Vector3.right);
             }
             
         }
@@ -91,37 +72,20 @@ public class PuzzleOperator : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                LoopLeft();
+                LoopDirection(Vector3.left);
             }
             
         }
     }
 
-    private void LoopLeft()
+    private void LoopDirection(Vector3 direction)
     {
-        for (int i = 0; i < 4; i++)
+        for(int i = 0;i < 4; i++)
         {
-            for (int j = 0; j < 4; j++)
+            for(int j = 0; j < 4; j++)
             {
-                if (pieces[i, j].transform.localPosition == Vector3.left + emptyPieces.transform.localPosition)
+                if(pieces[i, j].transform.localPosition == direction + emptyPieces.transform.localPosition)
                 {
-                    Swap(pieces[i, j], emptyPieces);
-                    return;
-                }
-            }
-        }
-    }
-
-    private void LoopRight()
-    {
-        for (int i = 0; i < 4; i++)
-        {
-            for (int j = 0; j < 4; j++)
-            {
-                if (pieces[i, j].transform.localPosition == Vector3.right + emptyPieces.transform.localPosition)
-                {
-
-                    Debug.Log("right");
                     Swap(pieces[i, j], emptyPieces);
                     return;
                 }
