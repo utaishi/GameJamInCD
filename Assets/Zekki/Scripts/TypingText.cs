@@ -109,6 +109,7 @@ public class TypingText : MonoBehaviour
 		if (clearCount==3)
 		{
 			//Clear
+			Debug.Log("CLEAR");
 		}
 		else if (clearCount==1)
 		{

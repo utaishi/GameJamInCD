@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,14 +13,12 @@ public class TimerOnRhythmPart : MonoBehaviour
 	{
 		timeText = GetComponent<Text>();
 		timeText.text = time.ToString("f2");
-		Observable.Interval(TimeSpan.FromMilliseconds(10)).Subscribe(x =>
-		{
-			time -= 0.01f;
-			timeText.text = time.ToString("f2");
-		});
 	}
 	
-	void Update () {
+	void Update ()
+	{
+		time -= Time.deltaTime;
+		timeText.text = time.ToString("f2");
 		if (time<=0)
 		{
 			//GameOver
