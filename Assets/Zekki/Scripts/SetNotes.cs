@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class SetNotes : MonoBehaviour
 {
-
-	public char[] firstNotes = new char[6];
-	public char[] secondNotes = new char[6];
-	public char[] thirdNotes = new char[6];
+	public char[,] problemNotes = new char[6, 6];
 	private char[] elements = {'a', 's', 'd'};
 	public GameObject[] notes;
 	public GameObject[] notesImages;
@@ -20,11 +17,14 @@ public class SetNotes : MonoBehaviour
 	void Start () {
 		for (int i = 0; i < 6; i++)
 		{
-			firstNotes[i] = elements[Random.Range(0, 3)];
-			secondNotes[i] = elements[Random.Range(0, 3)];
-			thirdNotes[i] = elements[Random.Range(0, 3)];
+			problemNotes[0, i] = elements[Random.Range(0, 3)];
+			problemNotes[1, i] = elements[Random.Range(0, 3)];
+			problemNotes[2, i] = elements[Random.Range(0, 3)];
+			problemNotes[3, i] = elements[Random.Range(0, 3)];
+			problemNotes[4, i] = elements[Random.Range(0, 3)];
+			problemNotes[5, i] = elements[Random.Range(0, 3)];
 		}
-		SetImage(firstNotes);
+		SetImage(problemNotes,0);
 
 		_typingText = inputText.GetComponent<TypingText>();
 	}
@@ -36,21 +36,15 @@ public class SetNotes : MonoBehaviour
 	public void ChangeImage()
 	{
 		DeleteImage();
-		if (_typingText.clearCount==1)
-		{
-			SetImage(secondNotes);
-		}
-		else
-		{
-			SetImage(thirdNotes);
-		}
+		int count = _typingText.clearCount;
+		SetImage(problemNotes, count);
 	}
 
-	void SetImage(char[] parameters)
+	void SetImage(char[,] parameters, int x)
 	{
 		for (int i = 0; i < 6; i++)
 		{
-			switch (parameters[i])
+			switch (parameters[x,i])
 			{
 				case 'a':
 					notesImages[i] = Instantiate(onCymbal,notes[i].transform);

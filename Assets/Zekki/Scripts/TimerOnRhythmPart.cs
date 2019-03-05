@@ -19,6 +19,7 @@ public class TimerOnRhythmPart : MonoBehaviour
 	{
 		time -= Time.deltaTime;
 		timeText.text = time.ToString("f2");
+		
 		if (time<=0)
 		{
 			//GameOver
@@ -28,7 +29,7 @@ public class TimerOnRhythmPart : MonoBehaviour
 
 	public void DecreaseTimer()
 	{
-		time -= 20;
+		time -= 30;
 		timeText.text = time.ToString("f2");
 	}
 }

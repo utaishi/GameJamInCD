@@ -27,7 +27,7 @@ public class Syorihans : MonoBehaviour
 
 	public void ChangeManImage()
 	{
-		int count = _typingText.clearCount;
+		int count = (_typingText.clearCount/2)-1;
 		Destroy(manImages[count]);
 		manImages[count] = Instantiate(manWake[count], threeMen[count].transform);
 		wakeupSound.Play();

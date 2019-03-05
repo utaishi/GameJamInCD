@@ -8,7 +8,7 @@ public class TypingText : MonoBehaviour
 	private SetNotes _setNotes;
 	private Syorihans _syorihans;
 	private TimerOnRhythmPart _timerOnRhythmPart;
-	private char[] problemText;
+	private char[,] problemText;
 	public GameObject notes;
 	public GameObject threeMen;
 	public GameObject backGround;
@@ -24,7 +24,7 @@ public class TypingText : MonoBehaviour
 	void Start ()
 	{
 		_setNotes = notes.GetComponent<SetNotes>();
-		problemText = _setNotes.firstNotes;
+		problemText = _setNotes.problemNotes;
 		_syorihans = threeMen.GetComponent<Syorihans>();
 		typeSound = GetComponent<AudioSource>();
 		_timerOnRhythmPart = timerText.GetComponent<TimerOnRhythmPart>();
@@ -46,7 +46,7 @@ public class TypingText : MonoBehaviour
 				PlayClip('d');
 			}
 			
-			if (Input.GetKeyDown(problemText[textIndex].ToString()))
+			if (Input.GetKeyDown(problemText[clearCount,textIndex].ToString()))
 			{
 				Correct();
 			}
@@ -91,8 +91,11 @@ public class TypingText : MonoBehaviour
 		textIndex++;
 		if (textIndex==6)
 		{
-			_syorihans.ChangeManImage();
 			clearCount++;
+			if (clearCount%2==0)
+			{
+				_syorihans.ChangeManImage();
+			}
 			changeText();
 			_setNotes.ChangeImage();
 		}
@@ -106,18 +109,10 @@ public class TypingText : MonoBehaviour
 
 	void changeText()
 	{
-		if (clearCount==3)
+		if (clearCount==6)
 		{
 			//Clear
 			Debug.Log("CLEAR");
-		}
-		else if (clearCount==1)
-		{
-			problemText = _setNotes.secondNotes;
-		}
-		else
-		{
-			problemText = _setNotes.thirdNotes;
 		}
 		textIndex = 0;
 	}
