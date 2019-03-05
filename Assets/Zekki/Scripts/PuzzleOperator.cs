@@ -43,6 +43,10 @@ public class PuzzleOperator : MonoBehaviour {
 
     void Update ()
     {
+        // 入れ替えられるピースは色を変える
+
+        SelectDisplay();
+
         //十字キーでカーソル移動、Spaceキーで移動
         // PuzzlePieces_14はSprite Rendererをオフにしている
         // そのためPuzzlePieces_14(pieces[3, 2])とその周囲をswapすればよい
@@ -88,6 +92,39 @@ public class PuzzleOperator : MonoBehaviour {
                 {
                     Swap(pieces[i, j], emptyPieces);
                     return;
+                }
+            }
+        }
+    }
+
+    private void SelectDisplay()
+    {
+        for(int i = 0; i < 4; i++)
+        {
+            for(int j = 0; j < 4; j++)
+            {
+                pieces[i, j].GetComponent<SpriteRenderer>().color = Color.white;
+            }
+        }
+        for(int i = 0; i < 4; i++)
+        {
+            for (int j = 0; j < 4; j++)
+            {
+                if (pieces[i, j].transform.localPosition == Vector3.up + emptyPieces.transform.localPosition)
+                {
+                    pieces[i, j].GetComponent<SpriteRenderer>().color = new Color(0.5130f, 0.5622f, 0.5943f);
+                }
+                if (pieces[i, j].transform.localPosition == Vector3.down + emptyPieces.transform.localPosition)
+                {
+                    pieces[i, j].GetComponent<SpriteRenderer>().color = new Color(0.5130f, 0.5622f, 0.5943f);
+                }
+                if (pieces[i, j].transform.localPosition == Vector3.right + emptyPieces.transform.localPosition)
+                {
+                    pieces[i, j].GetComponent<SpriteRenderer>().color = new Color(0.5130f, 0.5622f, 0.5943f);
+                }
+                if (pieces[i, j].transform.localPosition == Vector3.left + emptyPieces.transform.localPosition)
+                {
+                    pieces[i, j].GetComponent<SpriteRenderer>().color = new Color(0.5130f, 0.5622f, 0.5943f);
                 }
             }
         }
