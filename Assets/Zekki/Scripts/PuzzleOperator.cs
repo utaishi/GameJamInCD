@@ -32,7 +32,7 @@ public class PuzzleOperator : MonoBehaviour {
             {
                 number = 4 * i + j;
                 pieces[i, j] = GameObject.Find("PuzzlePieces_" + number.ToString());
-                pieces[i, j].transform.localPosition = new Vector3(number % 4, 3 - number / 4);
+                pieces[i, j].transform.localPosition = new Vector3(x[i], y[j]);
             }
         }
 

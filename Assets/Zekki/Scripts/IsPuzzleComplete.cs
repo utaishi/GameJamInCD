@@ -24,11 +24,12 @@ public class IsPuzzleComplete : MonoBehaviour {
 
     private bool IsComplete()
     {
+        int number;
         for (int i = 0; i < 4; i++)
         {
             for(int j = 0; j < 4; j++)
             {
-                int number = 4 * i + j;
+                number = 4 * i + j;
                 if (pieces[i, j].transform.localPosition != new Vector3(number % 4, 3 - number / 4))
                 {
                     return false;
