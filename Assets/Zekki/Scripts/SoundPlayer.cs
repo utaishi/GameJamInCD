@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Timer : MonoBehaviour {
+public class SoundPlayer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
