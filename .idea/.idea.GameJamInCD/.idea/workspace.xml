@@ -49,32 +49,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <marker date="1551797675086" expanded="true" signature="6:78" ph="..." />
-                <marker date="1551797675086" expanded="true" signature="117:1653" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="565:1014" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="596:928" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="1033:1040" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="1068:1162" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="1205:1558" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="1238:1555" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="1270:1551" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="1579:1651" ph="{...}" />
-                <marker date="1551797675086" expanded="true" signature="1612:1648" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="6:78" ph="..." />
+                <marker date="1551797713454" expanded="true" signature="117:1528" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="440:889" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="471:803" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="908:915" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="943:1037" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="1080:1433" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="1113:1430" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="1145:1426" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="1454:1526" ph="{...}" />
+                <marker date="1551797713454" expanded="true" signature="1487:1523" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
+            <state relative-caret-position="1785">
               <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
               <folding>
                 <marker date="1551797675096" expanded="true" signature="6:121" ph="..." />
@@ -258,12 +258,12 @@
       <workItem from="1551439603758" duration="651000" />
       <workItem from="1551511514089" duration="5278000" />
       <workItem from="1551599575451" duration="8923000" />
-      <workItem from="1551617600407" duration="29249000" />
+      <workItem from="1551617600407" duration="29520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44749000" />
+    <option name="totallyTimeSpent" value="45020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,41 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <marker date="1551797675086" expanded="true" signature="6:78" ph="..." />
-            <marker date="1551797675086" expanded="true" signature="117:1653" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="565:1014" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="596:928" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="1033:1040" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="1068:1162" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="1205:1558" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="1238:1555" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="1270:1551" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="1579:1651" ph="{...}" />
-            <marker date="1551797675086" expanded="true" signature="1612:1648" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <marker date="1551797587223" expanded="true" signature="6:78" ph="..." />
-            <marker date="1551797587223" expanded="true" signature="118:804" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="359:567" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="390:465" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="586:593" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="624:802" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -401,7 +366,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
+        <state relative-caret-position="1785">
           <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
           <folding>
             <marker date="1551797675096" expanded="true" signature="6:121" ph="..." />
@@ -426,6 +391,41 @@
             <marker date="1551797675096" expanded="true" signature="2093:2154" ph="{...}" />
             <marker date="1551797675096" expanded="true" signature="2174:2260" ph="{...}" />
             <marker date="1551797675096" expanded="true" signature="2198:2240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1551797587223" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551797587223" expanded="true" signature="118:804" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="359:567" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="390:465" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="586:593" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="624:802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1551797713454" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551797713454" expanded="true" signature="117:1528" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="440:889" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="471:803" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="908:915" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="943:1037" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="1080:1433" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="1113:1430" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="1145:1426" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="1454:1526" ph="{...}" />
+            <marker date="1551797713454" expanded="true" signature="1487:1523" ph="{...}" />
           </folding>
         </state>
       </provider>
