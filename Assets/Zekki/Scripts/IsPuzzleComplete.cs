@@ -28,7 +28,8 @@ public class IsPuzzleComplete : MonoBehaviour {
         {
             for(int j = 0; j < 4; j++)
             {
-                if (pieces[i, j].transform.localPosition != new Vector3(i % 4, i / 4))
+                int number = 4 * i + j;
+                if (pieces[i, j].transform.localPosition != new Vector3(number % 4, 3 - number / 4))
                 {
                     return false;
                 }
