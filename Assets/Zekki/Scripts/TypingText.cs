@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
+using Zekki;
 
 public class TypingText : MonoBehaviour
 {
@@ -97,7 +98,11 @@ public class TypingText : MonoBehaviour
 				_syorihans.ChangeManImage();
 			}
 			changeText();
-			_setNotes.ChangeImage();
+            if (clearCount != 6)
+            {
+                _setNotes.ChangeImage();
+            }
+			
 		}
 	}
 
@@ -113,6 +118,7 @@ public class TypingText : MonoBehaviour
 		{
 			//Clear
 			_timerOnRhythmPart.ClearTime();
+            this.GetComponent<ChangeSceneUeta>().ChangeAnyScene("OrdinanceGame");
 			Debug.Log("CLEAR");
 		}
 		textIndex = 0;
