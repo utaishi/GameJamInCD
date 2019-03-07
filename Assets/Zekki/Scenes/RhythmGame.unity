@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 841133652}
   - component: {fileID: 841133654}
   m_Layer: 0
-  m_Name: RoomBckGround
+  m_Name: RoomBackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

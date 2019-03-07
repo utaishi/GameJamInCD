@@ -10,6 +10,7 @@ public class PuzzleOperator : MonoBehaviour {
     private int[] x = new int[] { 0, 1, 2, 3 };
     private int[] y = new int[] { 0, 1, 2, 3 };
     public GameObject emptyPieces;
+    private AudioSource SE;
 
     static void Swap(GameObject a, GameObject b)
     {
@@ -37,6 +38,7 @@ public class PuzzleOperator : MonoBehaviour {
         }
 
         emptyPieces = GameObject.Find("PuzzlePieces_14");
+        SE = GetComponent<AudioSource>();
     }
 
 
@@ -54,21 +56,21 @@ public class PuzzleOperator : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                LoopDirection(Vector3.up);
+                LoopDirection(Vector3.up, SE);
             }
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                LoopDirection(Vector3.down);
+                LoopDirection(Vector3.down, SE);
             }
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                LoopDirection(Vector3.right);
+                LoopDirection(Vector3.right, SE);
             }
             
         }
@@ -76,13 +78,13 @@ public class PuzzleOperator : MonoBehaviour {
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                LoopDirection(Vector3.left);
+                LoopDirection(Vector3.left, SE);
             }
             
         }
     }
 
-    private void LoopDirection(Vector3 direction)
+    private void LoopDirection(Vector3 direction, AudioSource se)
     {
         for(int i = 0;i < 4; i++)
         {
@@ -91,6 +93,7 @@ public class PuzzleOperator : MonoBehaviour {
                 if(pieces[i, j].transform.localPosition == direction + emptyPieces.transform.localPosition)
                 {
                     Swap(pieces[i, j], emptyPieces);
+                    se.PlayOneShot(SE.clip);
                     return;
                 }
             }
