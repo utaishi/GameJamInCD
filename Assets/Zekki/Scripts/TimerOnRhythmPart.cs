@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class TimerOnRhythmPart : MonoBehaviour
 {
 	private Text timeText;
-	private float time = 500.00f;
+	public static float time = 500.00f;
+	public static float passTime;
 	
 	void Start ()
 	{
@@ -31,5 +32,10 @@ public class TimerOnRhythmPart : MonoBehaviour
 	{
 		time -= 30;
 		timeText.text = time.ToString("f2");
+	}
+
+	public void ClearTime()
+	{
+		passTime = 500f - time;
 	}
 }
