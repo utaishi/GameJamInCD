@@ -112,6 +112,7 @@ public class TypingText : MonoBehaviour
 		if (clearCount==6)
 		{
 			//Clear
+			_timerOnRhythmPart.ClearTime();
 			Debug.Log("CLEAR");
 		}
 		textIndex = 0;

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e12a30b3-4175-4c2c-8fbb-47dee08ec79a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameJamInCD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameJamInCD/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Zekki/Scenes/RhythmGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zekki/Scenes/RhythmGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs" afterDir="false" />
     </list>
@@ -37,23 +36,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2671" />
+          <entry key="cs" value="2749" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2671" />
+          <entry key="C#" value="2749" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <marker date="1551797713454" expanded="true" signature="6:78" ph="..." />
                 <marker date="1551797713454" expanded="true" signature="117:1528" ph="{...}" />
@@ -74,31 +73,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="282">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
-                <marker date="1551797675096" expanded="true" signature="6:121" ph="..." />
-                <marker date="1551797675096" expanded="true" signature="162:2262" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="635:889" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="908:1581" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="933:1280" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="973:1002" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1043:1073" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1114:1143" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1218:1243" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1251:1276" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1295:1386" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1393:1560" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1605:1792" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1622:1662" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1681:1721" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1728:1769" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1810:2076" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1936:2073" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="1981:2024" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="2093:2154" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="2174:2260" ph="{...}" />
-                <marker date="1551797675096" expanded="true" signature="2198:2240" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="6:121" ph="..." />
+                <marker date="1551879811113" expanded="true" signature="162:2297" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="635:889" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="908:1581" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="933:1280" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="973:1002" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1043:1073" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1114:1143" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1218:1243" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1251:1276" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1295:1386" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1393:1560" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1605:1792" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1622:1662" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1681:1721" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1728:1769" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1810:2076" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1936:2073" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="1981:2024" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="2093:2154" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="2174:2295" ph="{...}" />
+                <marker date="1551879811113" expanded="true" signature="2198:2275" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="297">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <marker date="1551797587223" expanded="true" signature="6:78" ph="..." />
                 <marker date="1551797587223" expanded="true" signature="118:804" ph="{...}" />
@@ -121,18 +120,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="87">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
-                <marker date="1551795730738" expanded="true" signature="6:114" ph="..." />
-                <marker date="1551795730738" expanded="true" signature="162:562" ph="{...}" />
-                <marker date="1551795730738" expanded="true" signature="236:316" ph="{...}" />
-                <marker date="1551795730738" expanded="true" signature="334:471" ph="{...}" />
-                <marker date="1551795730738" expanded="true" signature="420:468" ph="{...}" />
-                <marker date="1551795730738" expanded="true" signature="501:560" ph="{...}" />
+                <marker date="1551879811128" expanded="true" signature="6:114" ph="..." />
+                <marker date="1551879811128" expanded="true" signature="162:657" ph="{...}" />
+                <marker date="1551879811128" expanded="true" signature="273:353" ph="{...}" />
+                <marker date="1551879811128" expanded="true" signature="371:508" ph="{...}" />
+                <marker date="1551879811128" expanded="true" signature="457:505" ph="{...}" />
+                <marker date="1551879811128" expanded="true" signature="538:597" ph="{...}" />
+                <marker date="1551879811128" expanded="true" signature="623:655" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -158,10 +158,10 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Zekki/Script/TypingText.cs" />
         <option value="$PROJECT_DIR$/Assets/Zekki/Script/SetNotes.cs" />
-        <option value="$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs" />
-        <option value="$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs" />
         <option value="$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs" />
       </list>
     </option>
   </component>
@@ -258,12 +258,12 @@
       <workItem from="1551439603758" duration="651000" />
       <workItem from="1551511514089" duration="5278000" />
       <workItem from="1551599575451" duration="8923000" />
-      <workItem from="1551617600407" duration="29520000" />
+      <workItem from="1551617600407" duration="32088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45020000" />
+    <option name="totallyTimeSpent" value="47588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,71 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <marker date="1551795730738" expanded="true" signature="6:114" ph="..." />
-            <marker date="1551795730738" expanded="true" signature="162:562" ph="{...}" />
-            <marker date="1551795730738" expanded="true" signature="236:316" ph="{...}" />
-            <marker date="1551795730738" expanded="true" signature="334:471" ph="{...}" />
-            <marker date="1551795730738" expanded="true" signature="420:468" ph="{...}" />
-            <marker date="1551795730738" expanded="true" signature="501:560" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
-          <folding>
-            <marker date="1551797675096" expanded="true" signature="6:121" ph="..." />
-            <marker date="1551797675096" expanded="true" signature="162:2262" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="635:889" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="908:1581" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="933:1280" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="973:1002" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1043:1073" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1114:1143" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1218:1243" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1251:1276" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1295:1386" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1393:1560" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1605:1792" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1622:1662" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1681:1721" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1728:1769" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1810:2076" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1936:2073" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="1981:2024" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="2093:2154" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="2174:2260" ph="{...}" />
-            <marker date="1551797675096" expanded="true" signature="2198:2240" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <marker date="1551797587223" expanded="true" signature="6:78" ph="..." />
-            <marker date="1551797587223" expanded="true" signature="118:804" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="359:567" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="390:465" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="586:593" ph="{...}" />
-            <marker date="1551797587223" expanded="true" signature="624:802" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/SetNotes.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <marker date="1551797713454" expanded="true" signature="6:78" ph="..." />
             <marker date="1551797713454" expanded="true" signature="117:1528" ph="{...}" />
@@ -426,6 +365,68 @@
             <marker date="1551797713454" expanded="true" signature="1145:1426" ph="{...}" />
             <marker date="1551797713454" expanded="true" signature="1454:1526" ph="{...}" />
             <marker date="1551797713454" expanded="true" signature="1487:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/Syorihans.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <marker date="1551797587223" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551797587223" expanded="true" signature="118:804" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="359:567" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="390:465" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="586:593" ph="{...}" />
+            <marker date="1551797587223" expanded="true" signature="624:802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TypingText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <marker date="1551879811113" expanded="true" signature="6:121" ph="..." />
+            <marker date="1551879811113" expanded="true" signature="162:2297" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="635:889" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="908:1581" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="933:1280" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="973:1002" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1043:1073" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1114:1143" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1218:1243" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1251:1276" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1295:1386" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1393:1560" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1605:1792" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1622:1662" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1681:1721" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1728:1769" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1810:2076" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1936:2073" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="1981:2024" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="2093:2154" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="2174:2295" ph="{...}" />
+            <marker date="1551879811113" expanded="true" signature="2198:2275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Zekki/Scripts/TimerOnRhythmPart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <marker date="1551879811128" expanded="true" signature="6:114" ph="..." />
+            <marker date="1551879811128" expanded="true" signature="162:657" ph="{...}" />
+            <marker date="1551879811128" expanded="true" signature="273:353" ph="{...}" />
+            <marker date="1551879811128" expanded="true" signature="371:508" ph="{...}" />
+            <marker date="1551879811128" expanded="true" signature="457:505" ph="{...}" />
+            <marker date="1551879811128" expanded="true" signature="538:597" ph="{...}" />
+            <marker date="1551879811128" expanded="true" signature="623:655" ph="{...}" />
           </folding>
         </state>
       </provider>
