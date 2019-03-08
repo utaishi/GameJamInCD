@@ -28,6 +28,7 @@ public class TimerOnOrdinaceGamePart : MonoBehaviour {
 
         if(time <= 0)
         {
+
             GetComponent<ChangeSceneUeta>().ChangeAnyScene("GameOver");
             Debug.Log("GAMEOVER");
         }

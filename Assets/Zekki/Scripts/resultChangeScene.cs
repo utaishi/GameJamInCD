@@ -39,7 +39,7 @@ public class resultChangeScene : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            TimerOnRhythmPart.time = 500f;
+            TimerOnRhythmPart.time = TimerOnRhythmPart.setTime;
             if (isUp)
             {
                 retryObject.SetActive(true);

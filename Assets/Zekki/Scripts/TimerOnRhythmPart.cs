@@ -8,14 +8,15 @@ using Zekki;
 public class TimerOnRhythmPart : MonoBehaviour
 {
 	private Text timeText;
-	public static float time = 500.00f;
+    public static float setTime = 300f;
+    public static float time;
 	public static float passTime;
 	
 	void Start ()
 	{
 		timeText = GetComponent<Text>();
 		timeText.text = time.ToString("f2");
-        time = 500.00f;
+        time = setTime;
 	}
 	
 	void Update ()
@@ -39,11 +40,11 @@ public class TimerOnRhythmPart : MonoBehaviour
 
 	public void ClearTime()
 	{
-		passTime = 500f - time;
+		passTime = setTime - time;
 	}
 
     public void Initialize()
     {
-        time = 500f;
+        time = setTime;
     }
 }
