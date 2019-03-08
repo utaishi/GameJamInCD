@@ -5,28 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Zekki/Scenes/Title.unity
     guid: 30b7378da47bb2641baaac44b510b118
   - enabled: 1
-    path: Assets/Zekki/Scenes/Result.unity
-    guid: 0d8d1e3c2d26d2149a0c57f3b9c08e7e
-  - enabled: 1
-    path: Assets/Zekki/Scenes/GameOver.unity
-    guid: 48af2c2bda17e9444ab05630558cf744
-  - enabled: 1
     path: Assets/Zekki/Scenes/Help.unity
     guid: f2be7718ba017284ea2b2126050de219
-  - enabled: 1
-    path: Assets/Zekki/Scenes/OrdinanceGame.unity
-    guid: d57919635fabefa4bbaddbd8179c194d
   - enabled: 1
     path: Assets/Zekki/Scenes/RhythmGame.unity
     guid: 47d2990b267f3be40a1df3488103a69b
   - enabled: 1
+    path: Assets/Zekki/Scenes/OrdinanceGame.unity
+    guid: d57919635fabefa4bbaddbd8179c194d
+  - enabled: 1
+    path: Assets/Zekki/Scenes/GameOver.unity
+    guid: 48af2c2bda17e9444ab05630558cf744
+  - enabled: 1
     path: Assets/Zekki/Scenes/ZekkiAnimation.unity
     guid: 53615528f3cfb7f4aa1673f13eeed388
+  - enabled: 1
+    path: Assets/Zekki/Scenes/Result.unity
+    guid: 0d8d1e3c2d26d2149a0c57f3b9c08e7e
   m_configObjects: {}
