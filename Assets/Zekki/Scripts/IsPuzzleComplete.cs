@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zekki;
 
 public class IsPuzzleComplete : MonoBehaviour {
 
@@ -19,7 +20,11 @@ public class IsPuzzleComplete : MonoBehaviour {
     }
 	
 	void Update () {
-        if (IsComplete()) Debug.Log("Clear!!!!!!");
+        if (IsComplete()) {
+            Debug.Log("Clear!!!!!!");
+            GetComponent<ChangeSceneUeta>().ChangeAnyScene("Result");
+        }
+        
 	}
 
     private bool IsComplete()
