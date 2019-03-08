@@ -13,6 +13,7 @@ public class resultChangeScene : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         cursorSound = GetComponent<AudioSource>();
+
 	}
 	
 	// Update is called once per frame
@@ -38,6 +39,7 @@ public class resultChangeScene : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            TimerOnRhythmPart.time = 500f;
             if (isUp)
             {
                 retryObject.SetActive(true);

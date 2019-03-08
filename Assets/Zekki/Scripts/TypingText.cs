@@ -55,6 +55,7 @@ public class TypingText : MonoBehaviour
 			{
 				Mistake();
 			}
+
 		}
 
 		if (missed)

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Zekki;
 
 public class TimerOnRhythmPart : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class TimerOnRhythmPart : MonoBehaviour
 	{
 		timeText = GetComponent<Text>();
 		timeText.text = time.ToString("f2");
+        time = 500.00f;
 	}
 	
 	void Update ()
@@ -23,7 +25,8 @@ public class TimerOnRhythmPart : MonoBehaviour
 		
 		if (time<=0)
 		{
-			//GameOver
+            //GameOver
+            GetComponent<ChangeSceneUeta>().ChangeAnyScene("GameOver");
 			Debug.Log("GAMEOVER");
 		}
 	}
@@ -38,4 +41,9 @@ public class TimerOnRhythmPart : MonoBehaviour
 	{
 		passTime = 500f - time;
 	}
+
+    public void Initialize()
+    {
+        time = 500f;
+    }
 }
