@@ -6,9 +6,8 @@ using UnityEngine;
 
 public class PuzzleOperator : MonoBehaviour {
 
-    public static GameObject[,] pieces =  new GameObject[4, 4]; // パズルピース
-    private int[] x = new int[] { 0, 1, 2, 3 };
-    private int[] y = new int[] { 0, 1, 2, 3 };
+    public static GameObject[,] pieces = new GameObject[4, 4]; // パズルピース
+    private bool[] x= new bool[] { true, false };
     public GameObject emptyPieces;
     private AudioSource SE;
 
@@ -25,7 +24,6 @@ public class PuzzleOperator : MonoBehaviour {
         //パズルをランダム生成
         //ピース16枚にそれぞれランダムで相対座標(0<=x<=3,0<=y<=3)を入れる
         x = x.OrderBy(a => Guid.NewGuid()).ToArray();
-        y = y.OrderBy(a => Guid.NewGuid()).ToArray();
         int number; // パズルピースのナンバー(0-indexed)
         for (int i = 0; i < 4; ++i)
         {
@@ -33,10 +31,37 @@ public class PuzzleOperator : MonoBehaviour {
             {
                 number = 4 * i + j;
                 pieces[i, j] = GameObject.Find("PuzzlePieces_" + number.ToString());
-                pieces[i, j].transform.localPosition = new Vector3(x[i], y[j]);
+                pieces[i, j].transform.localPosition = new Vector3(number % 4, 3 - number / 4);
             }
         }
-
+        for(int i = 0; i < 100; i++)
+        {
+            for(int j = 0; j < 3; j++)
+            {
+                for(int k = 0; k < 3; k++)
+                {
+                    x = x.OrderBy(a => Guid.NewGuid()).ToArray();
+                    if (x[0])
+                    {
+                        Swap(pieces[j, k], pieces[j, k + 1]);
+                    }
+                }
+            }
+        }
+        for (int i = 0; i < 100; i++)
+        {
+            for (int j = 0; j < 3; j++)
+            {
+                for (int k = 0; k < 3; k++)
+                {
+                    x = x.OrderBy(a => Guid.NewGuid()).ToArray();
+                    if (x[0])
+                    {
+                        Swap(pieces[k, j], pieces[k + 1, j]);
+                    }
+                }
+            }
+        }
         emptyPieces = GameObject.Find("PuzzlePieces_14");
         SE = GetComponent<AudioSource>();
     }
